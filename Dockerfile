@@ -11,3 +11,5 @@ RUN npm install
 ADD . /code
 
 RUN gulp build
+
+RUN node app.js
