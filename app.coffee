@@ -8,6 +8,9 @@ app.post '/hook', (req,res) ->
 	res.send 200,'{"message":"ok","result":"ok"}'
 	if not req.body.ref == "refs/heads/master"
 		return
+    request.checkMigration req, (save) ->
+        if save
+            db.
     
 
 

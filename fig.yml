@@ -5,5 +5,7 @@ web:
         - 3000: 3000
     links:
         - db
+    environment:
+        - VIRTUAL_HOST=migrate.projectmakeit.com
 db:
     image: dockerfile/redis
