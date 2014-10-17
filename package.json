@@ -1,0 +1,24 @@
+{
+  "name": "MigrateSafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blixa Morgan <blixa@projectmakeit.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.7",
+    "passport": "^0.2.1",
+    "passport-github": "^0.1.5",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.8",
+    "gulp-coffee": "^2.2.0"
+  }
+}
